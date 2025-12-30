@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>skew</title>
+    <style>
+        .skew, .skewX, .skewY {
+            margin: 400px;
+            height: 200px;
+            width: 200px;
+            border: 1px solid red;
+            background-color: yellow;
+        }
+        .skew:hover {
+            /* skew having type is two things X, Y axis, with deg only. */
+            transform: skew(30deg, 30deg);
+        }
+        .skewX:hover {
+            /* skew-x having is x-axis only */
+            transform: skewX(30deg);
+        }
+        .skewY:hover {
+            /* skew-y having is y-axis only */
+            transform: skewY(30deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="skew">skew</div>
+    <div class="skewX">skew X</div>
+    <div class="skewY">skew Y</div>
+</body>
+</html>

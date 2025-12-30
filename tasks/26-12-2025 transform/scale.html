@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scale</title>
+    <style>
+        .scale, .scale-x, .scale-Y, .scale-Z, .scale-3d {
+            margin: 50px;
+            height: 200px;
+            width: 200px;
+            border: 1px solid red;
+            background-color: yellow;
+        }
+        .scale:hover {
+            transform: scale(1.2);
+        }
+        .scale-x:hover {
+            transform: scaleX(1.2);
+        }
+        .scale-Y:hover {
+            transform: scaleY(1.2);
+        }
+        .scale-Z:hover {
+            transform: scaleZ(1.2);
+        }
+        .scale-3d:hover {
+            transform: scale3d(2, 2, 2);
+        }    
+    </style>
+</head>
+<body>
+    <div class="scale">scale</div>
+    <div class="scale-x">scale-X</div>
+    <div class="scale-Y">scale-Y</div>
+    <div class="scale-Z">scale-Z</div>
+    <div class="scale-3d">scale-3d</div>
+</body>
+</html>
